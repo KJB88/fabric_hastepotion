@@ -24,7 +24,7 @@ public class hastePotion {
                 Registries.POTION,
                 new Identifier(MOD_ID, name),
                 new Potion(new StatusEffectInstance(
-                        StatusEffects.HASTE, 3600, 1)));
+                        StatusEffects.HASTE, 3600, 0)));
     }
     // Register the Long Haste Potion
     public static Potion registerLongHastePotion(String name){
@@ -32,7 +32,7 @@ public class hastePotion {
                 Registries.POTION,
                 new Identifier(MOD_ID, name),
                 new Potion(new StatusEffectInstance(
-                        StatusEffects.HASTE, 9600, 1)));
+                        StatusEffects.HASTE, 9600, 0)));
     }
     // Register the Strong Haste Potion
     public static Potion registerStrongHastePotion(String name){
@@ -40,7 +40,7 @@ public class hastePotion {
                 Registries.POTION,
                 new Identifier(MOD_ID, name),
                 new Potion(new StatusEffectInstance(
-                        StatusEffects.HASTE, 3600, 4)));
+                        StatusEffects.HASTE, 3600, 2)));
     }
 
     public static void registerPotions()
